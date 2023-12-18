@@ -1,0 +1,15 @@
+https://github.com/NazokatIbrag/project
+https://github.com/NazokatIbrag/project.git
+
+
+@DESKTOP-QF43A4F MINGW64 ~/Desktop
+
+# Существует-ли триугольник
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
+
+if a + b > c and b + c > a and a + c > b:
+    print("True")
+else:
+    print("False")
